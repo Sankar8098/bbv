@@ -82,7 +82,7 @@ async def set_intro_subtrack(client, message):
     chat_id = message.chat.id
     intro_text = message.text.split("/intro_subtrack", 1)[-1].strip()
     if not intro_text:
-        await message.reply_text("❌ Please provide an intro message! Example:
+        await message.reply_text("❌  Please provide an intro message! Example:\n/intro_subtrack Your Intro Message Here")
 /intro_subtrack Your Intro Message Here")
         return
     
