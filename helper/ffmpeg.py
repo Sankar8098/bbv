@@ -82,3 +82,4 @@ async def merge_intro_with_video(intro_path, main_video_path, output_path):
     if os.path.exists(output_path):
         return output_path
     return None
+
