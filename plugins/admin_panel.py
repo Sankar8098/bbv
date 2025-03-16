@@ -86,6 +86,6 @@ async def set_intro_subtrack(client, message):
         return
     
     intro_messages[chat_id] = intro_text
-    await message.reply_text(f"✅ Intro Subtrack set successfully!
+    await message.reply_text(f"✅ Intro Subtrack set successfully!\n\n**Intro Message:** {intro_text}")
 
 **Intro Message:** {intro_text}")
