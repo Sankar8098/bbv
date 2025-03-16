@@ -1,4 +1,4 @@
-import pymongo
+
 import motor.motor_asyncio
 from config import Config
 from .utils import send_log
